@@ -12,9 +12,7 @@ build:
     post_build:
       - sphinx-build -b markdown docs/source "${READTHEDOCS_OUTPUT}/markdown"
 
-artifacts:
-  markdown:
-    path: markdown
+
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
   configuration: docs/source/conf.py
