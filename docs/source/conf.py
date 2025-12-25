@@ -32,6 +32,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.autosectionlabel",
     "sphinx_copybutton",
+    "sphinx_markdown_builder",
 ]
 
 suppress_warnings = ["myst.header"]
