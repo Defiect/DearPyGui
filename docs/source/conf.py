@@ -32,9 +32,12 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.autosectionlabel",
     "sphinx_copybutton",
+    "sphinx_markdown_builder",
 ]
 
 suppress_warnings = ["myst.header"]
+
+markdown_flavor = "github"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

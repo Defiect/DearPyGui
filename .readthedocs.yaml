@@ -8,6 +8,9 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.8"
+  jobs:
+    post_build:
+      - sphinx-build -b markdown docs/source "${READTHEDOCS_OUTPUT}/markdown"
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
